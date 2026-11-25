@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="JR Client release status and setup requirements for Minecraft Java Edition 1.21.11.">
+  <meta name="theme-color" content="#111014">
+  <title>JR Client — Downloads</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #111014;
+      --surface: #1b191f;
+      --line: #38313e;
+      --text: #f6f0f8;
+      --muted: #bdb2c3;
+      --accent: #e4b0ff;
+      --warning: #ffd0a0;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 1rem/1.6 system-ui, sans-serif;
+    }
+
+    a { color: var(--accent); text-underline-offset: .25em; }
+    a:hover { color: white; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
+    .wrap { width: min(100% - 2.5rem, 68rem); margin-inline: auto; }
+    header { border-bottom: 1px solid var(--line); }
+    nav, footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .65rem 1.5rem; }
+    nav { align-items: center; min-height: 4.5rem; padding-block: .7rem; }
+    nav a { text-decoration: none; }
+    .brand { color: var(--text); font-weight: 850; }
+    .brand span { color: var(--accent); }
+    .nav-links { display: flex; flex-wrap: wrap; gap: .5rem 1.4rem; font-size: .9rem; }
+
+    .hero {
+      background: radial-gradient(ellipse at 85% 15%, #382344, transparent 62%);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .hero .wrap {
+      min-height: 25rem;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(14rem, 28%);
+      gap: 2rem;
+      align-items: center;
+      padding-block: 3.6rem;
+    }
+
+    h1, h2, p { margin: 0; }
+    h1 { font-size: clamp(3.5rem, 10vw, 7rem); line-height: .92; letter-spacing: -.085em; }
+    h2 { font-size: clamp(1.5rem, 4vw, 2rem); line-height: 1.2; letter-spacing: -.04em; }
+    .hero p { color: var(--muted); font-size: 1.08rem; margin-block: 1.25rem 1.6rem; }
+    .button {
+      display: inline-block;
+      background: var(--accent);
+      color: #24142c;
+      font-weight: 800;
+      padding: .65rem 1.05rem;
+      border-radius: .4rem;
+      text-decoration: none;
+    }
+    .button:hover { background: #f2d4ff; color: #24142c; }
+    .mark {
+      aspect-ratio: 1;
+      display: grid;
+      place-items: center;
+      color: #f1ccff;
+      font: 900 clamp(4rem, 12vw, 8rem)/1 system-ui, sans-serif;
+      letter-spacing: -.14em;
+      padding-right: .14em;
+      background:
+        repeating-linear-gradient(0deg, transparent 0 23px, #b973d423 24px 25px),
+        repeating-linear-gradient(90deg, transparent 0 23px, #b973d423 24px 25px),
+        #281b30;
+      border: 1px solid #735586;
+      border-radius: .8rem;
+      box-shadow: inset 0 0 3rem #17101d, 0 1.4rem 3rem #100b1466;
+      text-shadow: .055em .065em #6b4380;
+      transform: rotate(-5deg);
+    }
+
+    .details { display: grid; grid-template-columns: 1.15fr 1fr; gap: 1.25rem; padding-block: 2.8rem; }
+    .panel { border: 1px solid var(--line); border-radius: .65rem; padding: clamp(1.1rem, 3vw, 1.8rem); background: var(--surface); }
+    .status { color: var(--warning); font-weight: 750; margin-block: .8rem .35rem; }
+    .panel p:not(.status), .panel li, footer { color: var(--muted); }
+    .panel ul { padding-left: 1.2rem; margin: .8rem 0 0; }
+    .panel li + li { margin-top: .25rem; }
+    footer { border-top: 1px solid var(--line); font-size: .9rem; padding-block: 1.25rem; }
+
+    @media (max-width: 40rem) {
+      .hero .wrap { min-height: auto; grid-template-columns: 1fr; }
+      .mark { display: none; }
+      .details { grid-template-columns: 1fr; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="wrap" aria-label="Main navigation">
+      <a class="brand" href="./"><span>JR</span> Client</a>
+      <div class="nav-links">
+        <a href="#downloads">Downloads</a>
+        <a href="#requirements">Requirements</a>
+        <a href="https://github.com/jryoung201-code/JR-Client-Download">GitHub</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="title">
+      <div class="wrap">
+        <div>
+          <h1 id="title">JR Client</h1>
+          <p>A Fabric mod for Minecraft Java Edition 1.21.11.</p>
+          <a class="button" href="#downloads">View release status</a>
+        </div>
+        <div class="mark" aria-hidden="true">JR</div>
+      </div>
+    </section>
+
+    <div class="wrap details">
+      <section class="panel" id="downloads" aria-labelledby="download-title">
+        <h2 id="download-title">Downloads</h2>
+        <p class="status">Version 1.7.0 · Unavailable</p>
+        <p>This build includes code that can send in-game payments on DonutSMP. A replacement build is pending.</p>
+      </section>
+
+      <section class="panel" id="requirements" aria-labelledby="requirements-title">
+        <h2 id="requirements-title">Requirements</h2>
+        <ul>
+          <li>Minecraft Java Edition 1.21.11</li>
+          <li>Fabric Loader 0.18.4 or later</li>
+          <li>Fabric API for Minecraft 1.21.11</li>
+          <li>Java 21 or later</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>JR Client</span>
+      <a href="https://github.com/jryoung201-code/JR-Client-Download">Website repository</a>
+    </div>
+  </footer>
+</body>
+</html>
