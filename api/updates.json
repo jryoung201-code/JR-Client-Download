@@ -1,8 +1,8 @@
 {
-  "latestVersion": "1.8.1",
+  "latestVersion": "1.9.0",
   "minecraftVersion": "1.21.11",
-  "downloadUrl": "/JR-Client-Download/updates/jr-client-1.8.1-mc1.21.11.jar",
-  "fileName": "jr-client-1.8.1-mc1.21.11.jar",
+  "downloadUrl": "/JR-Client-Download/updates/jr-client-1.9.0-mc1.21.11.jar",
+  "fileName": "jr-client-1.9.0-mc1.21.11.jar",
   "releaseNotes": "DonutSMP.net join transfer update.",
   "requiresConfirmation": true
 }
