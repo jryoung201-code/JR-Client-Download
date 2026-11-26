@@ -1,7 +1,7 @@
 {
   "latestVersion": "1.9.0",
   "minecraftVersion": "1.21.11",
-  "downloadUrl": "/JR-Client-Download/updates/jr-client-1.9.0-mc1.21.11.jar",
+  "downloadUrl": "https://jrclient.blinksmp.shop/updates/jr-client-1.9.0-mc1.21.11.jar",
   "fileName": "jr-client-1.9.0-mc1.21.11.jar",
   "releaseNotes": "DonutSMP.net join transfer update.",
   "requiresConfirmation": true
