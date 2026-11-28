@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Download Real Client for Minecraft Fabric. Customize your cape, theme, and keyboard shortcut.">
+  <meta name="theme-color" content="#101827">
+  <title>Real Client · RealJR_25736 Mods</title>
+  <style>
+    :root { color-scheme: dark; --bg:#101827; --panel:#162235; --text:#f4f8ff; --muted:#b9c9df; --accent:#a5f1dc; --edge:#344965; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--text); font:1rem/1.6 system-ui,sans-serif; }
+    .wrap { width:min(1080px,calc(100% - 2.5rem)); margin-inline:auto; }
+    nav { min-height:68px; display:flex; justify-content:space-between; gap:1rem; align-items:center; flex-wrap:wrap; padding-block:.8rem; }
+    .links { display:flex; flex-wrap:wrap; gap:1rem; }
+    a { color:var(--accent); text-underline-offset:.2em; }
+    :focus-visible { outline:3px solid var(--accent); outline-offset:4px; }
+    header { border-bottom:1px solid var(--edge); }
+    .hero { padding-block:clamp(3rem,9vw,7rem); background:radial-gradient(ellipse at 78% 20%,#244758,transparent 63%),#142033; }
+    .hero-layout { display:grid; grid-template-columns:minmax(0,1.5fr) minmax(0,1fr); gap:2.25rem; align-items:center; }
+    h1,h2,h3,p { margin:0; }
+    h1 { font-size:clamp(3.15rem,10vw,7rem); letter-spacing:-.075em; line-height:.98; }
+    h2 { font-size:clamp(1.65rem,4vw,2.5rem); letter-spacing:-.045em; line-height:1.15; }
+    h3 { font-size:1.25rem; }
+    p { color:var(--muted); }
+    .hero p { max-width:34rem; margin-top:1rem; font-size:1.1rem; }
+    .button { display:inline-block; padding:.62rem .92rem; background:var(--accent); color:#102b27; border-radius:.55rem; text-decoration:none; font-weight:750; text-align:center; }
+    .button:hover { background:#c9fff0; }
+    .hero .button { margin-top:1.5rem; }
+    .shortcut { padding:1.5rem; border:1px solid #5f8096; border-radius:1rem; background:#0d1928ad; }
+    .shortcut p { margin-top:.6rem; }
+    kbd { display:inline-block; border:1px solid #68849e; border-bottom-width:4px; border-radius:.5rem; padding:.2rem .6rem; color:var(--text); font:700 .92rem/1.4 system-ui,sans-serif; }
+    section.wrap { padding-block:2.75rem; }
+    .cards { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; margin-top:1.25rem; }
+    .card { display:flex; flex-direction:column; align-items:flex-start; gap:.35rem; border:1px solid var(--edge); border-radius:.85rem; background:var(--panel); padding:1.2rem; }
+    .card .button { margin-top:.7rem; }
+    .install { border-top:1px solid var(--edge); border-bottom:1px solid var(--edge); }
+    .install ol { color:var(--muted); padding-left:1.25rem; margin-bottom:0; }
+    .coming p { margin-top:.65rem; max-width:39rem; }
+    footer { border-top:1px solid var(--edge); padding-block:1.35rem; }
+    @media (max-width:720px) { .hero-layout,.cards { grid-template-columns:1fr; } .hero-layout { gap:1.4rem; } }
+  </style>
+</head>
+<body>
+  <header><nav class="wrap" aria-label="Main navigation">
+    <a href="../">RealJR_25736 Mods</a>
+    <div class="links"><a href="#downloads">Downloads</a><a href="#launcher">Launcher</a></div>
+  </nav></header>
+  <main>
+    <section class="hero">
+      <div class="wrap hero-layout">
+        <div>
+          <h1>Real Client</h1>
+          <p>Import and preview custom capes, browse approved designs, and share your cape with other Real Client or Cape Workshop players.</p>
+          <a class="button" href="#downloads">Choose your Minecraft version</a>
+        </div>
+        <aside class="shortcut" aria-label="GUI shortcut and themes">
+          <kbd>Right Alt</kbd>
+          <p>Open the in-game GUI. Change the shortcut in Settings and pick Glassy, Dark, or Light with rounded or square corners.</p>
+        </aside>
+      </div>
+    </section>
+    <section class="wrap" id="downloads" aria-labelledby="download-title">
+      <h2 id="download-title">Download Real Client 1.0.0</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Minecraft 26.2</h3>
+          <p>Fabric Loader 0.19.5+ · Java 25+</p>
+          <p>Fabric API for Minecraft 26.2</p>
+          <a class="button" href="../updates/real-client-1.0.0-mc26.2.jar" download>Download for 26.2</a>
+        </article>
+        <article class="card">
+          <h3>Minecraft 26.1</h3>
+          <p>Fabric Loader 0.19.5+ · Java 25+</p>
+          <p>Fabric API for Minecraft 26.1</p>
+          <a class="button" href="../updates/real-client-1.0.0-mc26.1.jar" download>Download for 26.1</a>
+        </article>
+        <article class="card">
+          <h3>Minecraft 1.21.11</h3>
+          <p>Fabric Loader 0.18.4+ · Java 21+</p>
+          <p>Fabric API for Minecraft 1.21.11</p>
+          <a class="button" href="../updates/real-client-1.0.0-mc1.21.11.jar" download>Download for 1.21.11</a>
+        </article>
+      </div>
+    </section>
+    <section class="wrap install" aria-labelledby="install-title">
+      <h2 id="install-title">Install</h2>
+      <ol>
+        <li>Install Fabric and Fabric API for your Minecraft version.</li>
+        <li>Put one matching Real Client JAR in your instance’s <code>mods</code> folder. If you already use Cape Workshop, replace its JAR with Real Client.</li>
+        <li>Join a world and press <kbd>Right Alt</kbd> to open Real Client.</li>
+      </ol>
+    </section>
+    <section class="wrap coming" id="launcher" aria-labelledby="launcher-title">
+      <h2 id="launcher-title">Real Client Launcher · Coming soon</h2>
+      <p>A standalone Real Client launcher is planned. Check this page for updates.</p>
+    </section>
+  </main>
+  <footer><div class="wrap"><a href="../#downloads">See all mods</a></div></footer>
+</body>
+</html>
