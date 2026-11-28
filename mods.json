@@ -1,11 +1,13 @@
- {
+{
+  "mods": [
+    {
       "id": "Real-Client",
       "name": "Real Client",
-      "description": "Real Client",
+      "description": "Real Client. Install only one compatible build per Minecraft instance; do not install alongside Cape Workshop.",
       "loader": "Fabric",
       "minecraftVersion": "1.21.11",
-      "version": "0.8.6",
-      "downloadUrl": "./updates/cape-workshop-client-0.8.6.jar",
+      "version": "1.0.0",
+      "downloadUrl": "./updates/real-client-1.0.0-mc1.21.11.jar",
       "autoPay": false,
       "requirements": [
         "Fabric Loader 0.18.4 or later",
@@ -17,7 +19,7 @@
         {
           "minecraftVersion": "1.21.11",
           "version": "1.0.0",
-          "downloadUrl": "./updates/real-client-1.0.0-mc1.21.11",
+          "downloadUrl": "./updates/real-client-1.0.0-mc1.21.11.jar",
           "requirements": [
             "Fabric Loader 0.18.4 or later",
             "Fabric API for Minecraft 1.21.11",
@@ -28,7 +30,7 @@
         {
           "minecraftVersion": "26.1",
           "version": "1.0.0",
-          "downloadUrl": "./updates/real-client-1.0.0-mc26.1",
+          "downloadUrl": "./updates/real-client-1.0.0-mc26.1.jar",
           "requirements": [
             "Fabric Loader 0.19.5 or later",
             "Fabric API for Minecraft 26.1",
@@ -39,7 +41,7 @@
         {
           "minecraftVersion": "26.2",
           "version": "1.0.0",
-          "downloadUrl": "./updates/real-client-1.0.0-mc26.2",
+          "downloadUrl": "./updates/real-client-1.0.0-mc26.2.jar",
           "requirements": [
             "Fabric Loader 0.19.5 or later",
             "Fabric API for Minecraft 26.2",
@@ -49,8 +51,6 @@
         }
       ]
     },
-{
-  "mods": [
     {
       "id": "onesecondrespawn",
       "name": "One Second Respawn",
