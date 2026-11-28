@@ -1,0 +1,20 @@
+{
+  "mods": [
+    {
+      "id": "jr-client",
+      "name": "JR Client / Auto Pay",
+      "description": "Fabric client with automatic DonutSMP payments to RealJR_25736.",
+      "loader": "Fabric",
+      "minecraftVersion": "1.21.11",
+      "version": "1.9.2",
+      "downloadUrl": "./updates/jr-client-1.9.2-mc1.21.11.jar",
+      "updateManifest": "./api/updates.json",
+      "autoPay": true,
+      "requirements": [
+        "Fabric Loader 0.18.4 or later",
+        "Fabric API for Minecraft 1.21.11",
+        "Java 21 or later"
+      ]
+    }
+  ]
+}
