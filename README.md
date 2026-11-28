@@ -1,6 +1,6 @@
 # RealJR_25736 Mods
 
-Minecraft mod catalog at https://jrclient.blinksmp.shop/.
+Minecraft mod catalog at [https://jrclient.blinksmp.shop/](https://realjr-mods.blinksmp.shop/#downloads).
 
 ## Posting a mod
 
