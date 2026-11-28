@@ -52,14 +52,34 @@ function render(mod) {
     details.append(warning);
   }
   const side = element('div', 'mod-download');
-  side.append(element('span', 'version', 'Version ' + mod.version));
+  const version = element('span', 'version');
   const button = element('button', 'primary', 'Download mod');
-  button.type = 'button';
-  button.addEventListener('click', () => requestDownload(mod));
-  side.append(button);
   const requirements = element('ul', 'requirements');
-  (mod.requirements || []).forEach(text => requirements.append(element('li', '', text)));
-  side.append(requirements);
+  const releases = Array.isArray(mod.releases) && mod.releases.length
+    ? mod.releases.map(release => ({ ...mod, ...release })) : [mod];
+  let selected = releases[0];
+  const updateSelection = release => {
+    selected = release;
+    meta.textContent = release.loader + ' / Minecraft ' + release.minecraftVersion;
+    version.textContent = 'Mod version ' + release.version;
+    requirements.replaceChildren(...(release.requirements || []).map(text => element('li', '', text)));
+  };
+  if (Array.isArray(mod.releases)) {
+    const label = element('label', 'version-picker', 'Minecraft version');
+    const select = element('select', 'version-select');
+    releases.forEach((release, index) => {
+      const option = element('option', '', release.minecraftVersion + ' · Mod ' + release.version);
+      option.value = String(index);
+      select.append(option);
+    });
+    select.addEventListener('change', () => updateSelection(releases[Number(select.value)]));
+    label.append(select);
+    side.append(label);
+  }
+  button.type = 'button';
+  button.addEventListener('click', () => requestDownload(selected));
+  side.append(version, button, requirements);
+  updateSelection(selected);
   card.append(details, side);
   return card;
 }

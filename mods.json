@@ -14,6 +14,41 @@
         "Fabric API for Minecraft 1.21.11",
         "Java 21 or later",
         "Mod Menu or 'Shift' + '-' in-game"
+      ],
+      "releases": [
+        {
+          "minecraftVersion": "26.2",
+          "version": "0.9.0",
+          "downloadUrl": "./updates/cape-workshop-client-0.9.0-mc26.2.jar",
+          "requirements": [
+            "Fabric Loader 0.19.5 or later",
+            "Fabric API for Minecraft 26.2",
+            "Java 25 or later",
+            "Mod Menu or Shift + - in-game"
+          ]
+        },
+        {
+          "minecraftVersion": "26.1",
+          "version": "0.9.0",
+          "downloadUrl": "./updates/cape-workshop-client-0.9.0-mc26.1.jar",
+          "requirements": [
+            "Fabric Loader 0.19.5 or later",
+            "Fabric API for Minecraft 26.1",
+            "Java 25 or later",
+            "Mod Menu or Shift + - in-game"
+          ]
+        },
+        {
+          "minecraftVersion": "1.21.11",
+          "version": "0.8.6",
+          "downloadUrl": "./updates/cape-workshop-client-0.8.6.jar",
+          "requirements": [
+            "Fabric Loader 0.18.4 or later",
+            "Fabric API for Minecraft 1.21.11",
+            "Java 21 or later",
+            "Mod Menu or 'Shift' + '-' in-game"
+          ]
+        }
       ]
     },
     {
