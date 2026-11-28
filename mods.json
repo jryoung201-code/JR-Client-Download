@@ -66,6 +66,40 @@
         "Fabric API for Minecraft 1.21.11",
         "Java 21 or later"
       ]
+    },
+    {
+      "id": "stream-utils",
+      "name": "Stream Utils",
+      "description": "Hides F3 coordinates and incoming DonutSMP teleport requests from your screen.",
+      "loader": "Fabric",
+      "minecraftVersion": "1.21.11",
+      "version": "1.0.1",
+      "downloadUrl": "./updates/stream-utils-1.0.1-mc1.21.11.jar",
+      "requirements": [
+        "Fabric Loader 0.18.4 or later",
+        "Java 21 or later"
+      ],
+      "autoPay": false,
+      "releases": [
+        {
+          "minecraftVersion": "1.21.11",
+          "version": "1.0.1",
+          "downloadUrl": "./updates/stream-utils-1.0.1-mc1.21.11.jar",
+          "requirements": [
+            "Fabric Loader 0.18.4 or later",
+            "Java 21 or later"
+          ]
+        },
+        {
+          "minecraftVersion": "26.2",
+          "version": "1.0.1",
+          "downloadUrl": "./updates/stream-utils-1.0.1-mc26.2.jar",
+          "requirements": [
+            "Fabric Loader 0.19.3 or later",
+            "Java 25 or later"
+          ]
+        }
+      ]
     }
   ]
 }
