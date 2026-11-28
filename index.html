@@ -42,6 +42,7 @@
 
     .catalog { padding-block: 3rem 4rem; }
     h2 { font-size: clamp(1.55rem, 4vw, 2.1rem); letter-spacing: -.035em; margin-bottom: 1.1rem; }
+    .download-note { color: var(--muted); margin-bottom: 1.25rem; }
     #catalog-status { color: var(--muted); }
     #mod-list { display: grid; gap: 1rem; }
     .mod-card { display: grid; grid-template-columns: minmax(0, 1fr) minmax(14rem, 17rem); border: 1px solid var(--border); border-radius: .85rem; overflow: hidden; background: var(--panel); }
@@ -88,6 +89,7 @@
     </section>
     <section class="catalog wrap" id="downloads" aria-labelledby="mods-title">
       <h2 id="mods-title">Downloads</h2>
+      <p class="download-note"><strong>Download safety.</strong> Check each mod’s requirements and warnings before installing. This site labels mods that make automatic in-game payments and asks for confirmation before downloading them.</p>
       <p id="catalog-status" role="status">Loading mods…</p>
       <div id="mod-list"></div>
       <noscript>
