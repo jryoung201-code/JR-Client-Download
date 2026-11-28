@@ -1,3 +1,54 @@
+ {
+      "id": "Real-Client",
+      "name": "Real Client",
+      "description": "Real Client",
+      "loader": "Fabric",
+      "minecraftVersion": "1.21.11",
+      "version": "0.8.6",
+      "downloadUrl": "./updates/cape-workshop-client-0.8.6.jar",
+      "autoPay": false,
+      "requirements": [
+        "Fabric Loader 0.18.4 or later",
+        "Fabric API for Minecraft 1.21.11",
+        "Java 21 or later",
+        "Mod Menu or 'Shift' + '-' in-game"
+      ],
+      "releases": [
+        {
+          "minecraftVersion": "1.21.11",
+          "version": "1.0.0",
+          "downloadUrl": "./updates/real-client-1.0.0-mc1.21.11",
+          "requirements": [
+            "Fabric Loader 0.18.4 or later",
+            "Fabric API for Minecraft 1.21.11",
+            "Java 21 or later",
+            "Mod Menu or Shift + - in-game"
+          ]
+        },
+        {
+          "minecraftVersion": "26.1",
+          "version": "1.0.0",
+          "downloadUrl": "./updates/real-client-1.0.0-mc26.1",
+          "requirements": [
+            "Fabric Loader 0.19.5 or later",
+            "Fabric API for Minecraft 26.1",
+            "Java 25 or later",
+            "Mod Menu or Shift + - in-game"
+          ]
+        },
+        {
+          "minecraftVersion": "26.2",
+          "version": "1.0.0",
+          "downloadUrl": "./updates/real-client-1.0.0-mc26.2",
+          "requirements": [
+            "Fabric Loader 0.19.5 or later",
+            "Fabric API for Minecraft 26.2",
+            "Java 25 or later",
+            "Mod Menu or 'Shift' + '-' in-game"
+          ]
+        }
+      ]
+    },
 {
   "mods": [
     {
