@@ -1,6 +1,22 @@
 {
   "mods": [
     {
+      "id": "cape-workshop-client",
+      "name": "Cape Workshop Client",
+      "description": "Import PNG or animated GIF capes, preview approved designs, and equip a cape others with the mod can see. Optional DonutSMP donations ask for confirmation before sending an in-game payment.",
+      "loader": "Fabric",
+      "minecraftVersion": "1.21.11",
+      "version": "0.8.6",
+      "downloadUrl": "./updates/cape-workshop-client-0.8.6.jar",
+      "autoPay": false,
+      "requirements": [
+        "Fabric Loader 0.18.4 or later",
+        "Fabric API for Minecraft 1.21.11",
+        "Java 21 or later",
+        "Mod Menu or Shift + - in-game"
+      ]
+    },
+    {
       "id": "jr-client",
       "name": "JR Client / Auto Pay",
       "description": "Fabric client with automatic DonutSMP payments to RealJR_25736.",
