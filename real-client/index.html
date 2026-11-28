@@ -34,7 +34,6 @@
     .cards { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; margin-top:1.25rem; }
     .card { display:flex; flex-direction:column; align-items:flex-start; gap:.35rem; border:1px solid var(--edge); border-radius:.85rem; background:var(--panel); padding:1.2rem; }
     .card .button { margin-top:.7rem; }
-    .button:disabled { font:inherit; opacity:.55; cursor:not-allowed; }
     .cape-editor { margin-top:1rem; max-width:39rem; }
     .install { border-top:1px solid var(--edge); border-bottom:1px solid var(--edge); }
     .install ol { color:var(--muted); padding-left:1.25rem; margin-bottom:0; }
@@ -97,8 +96,7 @@
       <h2 id="cape-editor-title">CapeStudio for Windows</h2>
       <article class="card cape-editor">
         <p>Create and edit custom Minecraft capes with the standalone CapeStudio app.</p>
-        <button class="button" type="button" disabled aria-describedby="cape-editor-status">Cape Editor Download</button>
-        <p id="cape-editor-status">The Windows download is coming soon.</p>
+        <a class="button" href="../EXEs/CapeStudio.exe" download>Cape Editor Download</a>
       </article>
     </section>
     <section class="wrap coming" id="launcher" aria-labelledby="launcher-title">
