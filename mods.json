@@ -115,6 +115,68 @@
         "Fabric API for Minecraft 1.21.11",
         "Java 21 or later"
       ]
+    },
+    {
+      "id": "fastclicks",
+      "name": "FastClicks / PlaceSpeedSlider",
+      "description": "Adds a client-side slider for block placement speed.",
+      "loader": "Fabric",
+      "minecraftVersion": "1.21.11",
+      "version": "1.0.10",
+      "downloadUrl": "./updates/fastclicks-1.0.10.jar",
+      "autoPay": false,
+      "requirements": [
+        "Fabric Loader 0.18.6 or later",
+        "Fabric API for Minecraft 1.21.11",
+        "Java 21 or later",
+        "Mod Menu for the optional config screen"
+      ]
+    },
+    {
+      "id": "donation_alerts",
+      "name": "DonationAlerts",
+      "description": "Shows configurable on-screen alerts for incoming DonutSMP payments.",
+      "loader": "Fabric",
+      "minecraftVersion": "1.21.11",
+      "version": "1.5.6",
+      "downloadUrl": "./updates/DonationAlerts-1.5.6.jar",
+      "autoPay": false,
+      "requirements": [
+        "Fabric Loader 0.18.1 or later",
+        "Fabric API for Minecraft 1.21.11",
+        "Java 21 or later"
+      ]
+    },
+    {
+      "id": "just_a_world_map",
+      "name": "Just a World Map",
+      "description": "A seed-aware map that records explored chunks and supports tagged waypoints.",
+      "loader": "Fabric",
+      "minecraftVersion": "1.21.11",
+      "version": "0.1.0",
+      "downloadUrl": "./updates/just-a-world-map-0.1.0.jar",
+      "autoPay": false,
+      "requirements": [
+        "Fabric Loader 0.18.1 or later",
+        "Fabric API for Minecraft 1.21.11",
+        "Java 21 or later"
+      ]
+    },
+    {
+      "id": "moneygraph",
+      "name": "MoneyGraph",
+      "description": "Graphs in-game balance history from /bal responses.",
+      "loader": "Fabric",
+      "minecraftVersion": "1.21.11",
+      "version": "1.0.4",
+      "downloadUrl": "./updates/moneygraph-1.0.4-modmenu-fixed.jar",
+      "autoPay": false,
+      "requirements": [
+        "Fabric Loader 0.18.0 or later",
+        "Fabric API for Minecraft 1.21.11",
+        "Java 21 or later",
+        "Mod Menu 17.0.1 for optional integration"
+      ]
     }
   ]
 }
