@@ -1,6 +1,20 @@
 {
   "mods": [
     {
+      "id": "onesecondrespawn",
+      "name": "One Second Respawn",
+      "description": "Automatically respawn about one second after dying. Toggle Auto Respawn directly on the death screen. The mod remembers your choice.",
+      "loader": "Fabric",
+      "minecraftVersion": "1.21.11",
+      "version": "1.0.0",
+      "downloadUrl": "./updates/one-second-respawn-1.0.0-mc1.21.11.jar",
+      "requirements": [
+        "Fabric Loader 0.18.4 or later",
+        "Java 21 or later"
+      ],
+      "autoPay": false
+    },
+    {
       "id": "cape-workshop-client",
       "name": "Cape Workshop Client",
       "description": "Import PNG or animated GIF capes, preview approved designs, and equip a cape others with the mod can see. Optional DonutSMP donations ask for confirmation before sending an in-game payment.",
