@@ -3,50 +3,50 @@
     {
       "id": "Real-Client",
       "name": "Real Client",
-      "description": "Real Client. Install only one compatible build per Minecraft instance; do not install alongside Cape Workshop.",
+      "description": "Create and share custom capes and view your Real Tokens balance. Install only one compatible build per Minecraft instance; do not install alongside Cape Workshop.",
       "loader": "Fabric",
       "minecraftVersion": "1.21.11",
-      "version": "1.0.0",
-      "downloadUrl": "./updates/real-client-1.0.0-mc1.21.11.jar",
+      "version": "1.0.1",
+      "downloadUrl": "./updates/real-client-1.0.1-mc1.21.11.jar",
       "autoPay": false,
       "requirements": [
         "Fabric Loader 0.18.4 or later",
         "Fabric API for Minecraft 1.21.11",
         "Java 21 or later",
-        "Mod Menu or 'Shift' + '-' in-game"
+        "Mod Menu or Right Alt in-game"
       ],
       "releases": [
         {
           "minecraftVersion": "1.21.11",
-          "version": "1.0.0",
-          "downloadUrl": "./updates/real-client-1.0.0-mc1.21.11.jar",
+          "version": "1.0.1",
+          "downloadUrl": "./updates/real-client-1.0.1-mc1.21.11.jar",
           "requirements": [
             "Fabric Loader 0.18.4 or later",
             "Fabric API for Minecraft 1.21.11",
             "Java 21 or later",
-            "Mod Menu or Shift + - in-game"
+            "Mod Menu or Right Alt in-game"
           ]
         },
         {
           "minecraftVersion": "26.1",
-          "version": "1.0.0",
-          "downloadUrl": "./updates/real-client-1.0.0-mc26.1.jar",
+          "version": "1.0.1",
+          "downloadUrl": "./updates/real-client-1.0.1-mc26.1.jar",
           "requirements": [
             "Fabric Loader 0.19.5 or later",
             "Fabric API for Minecraft 26.1",
             "Java 25 or later",
-            "Mod Menu or Shift + - in-game"
+            "Mod Menu or Right Alt in-game"
           ]
         },
         {
           "minecraftVersion": "26.2",
-          "version": "1.0.0",
-          "downloadUrl": "./updates/real-client-1.0.0-mc26.2.jar",
+          "version": "1.0.1",
+          "downloadUrl": "./updates/real-client-1.0.1-mc26.2.jar",
           "requirements": [
             "Fabric Loader 0.19.5 or later",
             "Fabric API for Minecraft 26.2",
             "Java 25 or later",
-            "Mod Menu or 'Shift' + '-' in-game"
+            "Mod Menu or Right Alt in-game"
           ]
         }
       ]
