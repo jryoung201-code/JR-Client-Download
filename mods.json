@@ -100,6 +100,21 @@
           ]
         }
       ]
+    },
+    {
+      "id": "infinite-echo",
+      "name": "Infinite Echo",
+      "description": "Set checkpoints in singleplayer, roll back on death, and play alongside clones of your past lives. Run /infiniteecho checkpoint to start.",
+      "loader": "Fabric",
+      "minecraftVersion": "1.21.11",
+      "version": "0.8.8",
+      "downloadUrl": "./updates/infinite-echo-0.8.8.jar",
+      "autoPay": false,
+      "requirements": [
+        "Fabric Loader 0.18.4 or later",
+        "Fabric API for Minecraft 1.21.11",
+        "Java 21 or later"
+      ]
     }
   ]
 }
